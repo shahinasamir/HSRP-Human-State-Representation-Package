@@ -273,4 +273,207 @@ Such systems could potentially use structured information concerning:
 * relationships
 * experiences
 * contextual state
-* provenan
+* provenance
+* uncertainty
+* temporal history
+* physical or embodiment-related information
+
+However, preservation of information should not be confused with preservation or reconstruction of subjective consciousness.
+
+HSRP provides a representation framework; it does not claim that currently available technology can reconstruct a person's consciousness.
+
+---
+
+## Embodiment
+
+An HSRP representation may potentially be consumed by different forms of computational embodiment.
+
+Conceptually:
+
+```text
+HSRP
+ ↓
+Interpretation Layer
+ ↓
+Computational Persona
+ ↓
+Embodiment Layer
+ ↓
+Interactive Physical / Virtual System
+```
+
+Embodiment may include:
+
+* virtual agents
+* avatars
+* robotic systems
+* immersive environments
+* future human-machine interfaces
+* other computationally controlled embodiments
+
+The representation remains separate from the embodiment.
+
+---
+
+## What HSRP Does Not Claim
+
+HSRP does **not** claim that:
+
+* a data representation is a human
+* a computational persona is automatically the original person
+* behavioral similarity proves personal identity
+* memory storage proves consciousness
+* information preservation proves subjective continuity
+* an AI system is conscious because it represents a human
+* an embodied system contains the original person's consciousness
+* a sufficiently detailed representation necessarily recreates a person's subjective experience
+* current technology can digitally recreate a person's consciousness
+
+These distinctions are fundamental to the framework.
+
+---
+
+## Prototype Capabilities
+
+The HSRP framework is designed to support implementations involving:
+
+* structured human-state representation
+* machine-readable human information
+* temporal state management
+* provenance tracking
+* uncertainty representation
+* contradiction handling
+* privacy and authorization
+* controlled information access
+* computational-persona construction
+* reconstruction-oriented information
+* embodiment-oriented information
+* future extensibility
+
+The framework is intentionally designed so that implementations can evolve as computational capabilities develop.
+
+---
+
+## Open Framework
+
+HSRP is intended as an open conceptual and technical framework.
+
+The objective is to provide a common representation layer that researchers, developers, AI systems, and future human-computer technologies can build upon.
+
+Potential applications include:
+
+* computational personas
+* digital-human systems
+* personal AI
+* long-term human information preservation
+* human-AI interaction
+* adaptive assistants
+* identity-aware systems
+* knowledge representation
+* digital legacy systems
+* future embodiment systems
+* research into human representation
+
+The framework does not prescribe a single implementation or commercial architecture.
+
+---
+
+## Repository Contents
+
+This repository contains the public HSRP framework and supporting documentation.
+
+### `HSRP_START_HERE.md`
+
+The primary protocol-oriented starting point for working with an HSRP package.
+
+It defines the intended processing approach and establishes important boundaries concerning authorization, privacy, provenance, uncertainty, temporal state, reconstruction, embodiment, and consciousness-related claims.
+
+### `HSRP User Guide.pdf`
+
+A user-oriented guide describing how the framework is intended to be understood and used.
+
+### `CITATION.cff`
+
+Machine-readable citation metadata for researchers and software projects using HSRP.
+
+### `LICENSE`
+
+The HSRP framework is released under the **Apache License 2.0**.
+
+### `README.md`
+
+This document provides the high-level conceptual overview of HSRP.
+
+---
+
+## Privacy Statement
+
+This public repository contains **framework and documentation**, not a private human representation.
+
+No private HSRP interview data, personal memories, credentials, confidential records, employer/client information, or other private human-state data should be committed to this repository.
+
+Implementations containing personal HSRP data should use appropriate security, authorization, encryption, access-control, and data-management mechanisms.
+
+---
+
+## Project Status
+
+**Initial Public Release — HSRP v1.0.0**
+
+The framework is publicly available for exploration, experimentation, discussion, implementation, and further development.
+
+A subsequent **v1.0.1 release** was created to provide the GitHub release captured through the GitHub–Zenodo archival integration.
+
+The framework remains open to future refinement as implementation experience, research, and technical capabilities evolve.
+
+---
+
+## Archival Record
+
+The HSRP framework is archived through **Zenodo**.
+
+**DOI:** https://doi.org/10.5281/zenodo.23191741
+
+The DOI provides a persistent archival reference for the published HSRP release.
+
+---
+
+## Citation
+
+If you use HSRP in research, software, publications, experiments, or other work, please cite the corresponding release.
+
+The repository includes a machine-readable `CITATION.cff` file containing the citation metadata and Zenodo DOI.
+
+### Suggested citation
+
+**Shahina. (2026). Human State & Representation Package (HSRP). Zenodo. https://doi.org/10.5281/zenodo.23191741**
+
+---
+
+## License
+
+HSRP is released under the **Apache License 2.0**.
+
+See [`LICENSE`](LICENSE) for the complete license text.
+
+---
+
+## Central Proposition
+
+> **A human should not be reduced to a static profile when computational systems increasingly need to represent state, history, context, uncertainty, provenance, relationships, permissions, and change over time.**
+
+HSRP proposes a structured representation layer for that problem while maintaining a clear distinction between **representation and the human being represented**.
+
+---
+
+## Project Line
+
+**Represent the human. Preserve the context. Track the change. Respect the uncertainty. Protect the person.**
+
+---
+
+## Author
+
+**Shahina**
+
+Copyright © 2026 Shahina
