@@ -1,3 +1,4 @@
+```yaml
 cff-version: 1.2.0
 
 title: "Human State & Representation Package (HSRP)"
@@ -7,8 +8,7 @@ message: "If you use HSRP in research, software, publications, or other work, pl
 type: software
 
 authors:
-  - family-names: "Feeroz"
-    given-names: "Samir"
+  - name: "Shahina"
 
 repository-code: "https://github.com/shahinasamir/HSRP-Human-State-Representation-Package"
 
@@ -30,3 +30,4 @@ keywords:
   - "HSRP"
   - "Computational Persona"
   - "Human Representation Framework"
+```
