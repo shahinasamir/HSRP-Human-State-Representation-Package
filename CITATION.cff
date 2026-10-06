@@ -1,17 +1,25 @@
 cff-version: 1.2.0
+
 title: "Human State & Representation Package (HSRP)"
+
 message: "If you use HSRP in research, software, publications, or other work, please cite this release."
+
 type: software
 
 authors:
   - family-names: "Feeroz"
     given-names: "Samir"
 
-repository-code: "https://github.com/samirfeeroz/HSRP-Human-State-Representation-Package"
-url: "https://github.com/samirfeeroz/HSRP-Human-State-Representation-Package"
+repository-code: "https://github.com/shahinasamir/HSRP-Human-State-Representation-Package"
+
+url: "https://github.com/shahinasamir/HSRP-Human-State-Representation-Package"
+
+doi: "10.5281/zenodo.23191741"
 
 license: "Apache-2.0"
-version: "1.0.0"
+
+version: "1.0.1"
+
 date-released: "2026-10-06"
 
 abstract: "The Human State & Representation Package (HSRP) is a structured framework for representing information about a human, including identity-relevant state, context, history, preferences, experiences, relationships, uncertainty, provenance, temporal information, and other aspects of human representation."
