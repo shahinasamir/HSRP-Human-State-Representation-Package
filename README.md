@@ -2,6 +2,8 @@
 
 **An open framework for structured representation of human state, history, context, uncertainty, provenance, and temporal information.**
 
+---
+
 ## Overview
 
 The **Human State & Representation Package (HSRP)** is a structured framework for representing information about a human in a machine-readable and extensible form.
@@ -57,4 +59,218 @@ A conventional user profile generally represents relatively stable attributes.
 
 Human information is more complex.
 
-A person's state can change over time. Information can have different sources, confidence levels, time
+A person's state can change over time. Information can have different sources, confidence levels, temporal validity, permissions, and interpretations. Some information may be uncertain, contradictory, incomplete, obsolete, inferred, or explicitly unknown.
+
+HSRP therefore treats human representation as a **structured state and information problem**, rather than simply a profile or collection of attributes.
+
+---
+
+## Temporal Human State
+
+Human information is not necessarily static.
+
+HSRP supports representation of information in relation to:
+
+* time
+* historical state
+* changing preferences
+* evolving beliefs
+* experiences and events
+* relationships over time
+* state transitions
+* validity periods
+* historical versus current information
+* unknown or unresolved temporal states
+
+This allows a representation to distinguish between:
+
+```text
+What was true
+What is believed to be true
+What is currently true
+What may become true
+What is unknown
+```
+
+rather than collapsing everything into a single permanent profile.
+
+---
+
+## Provenance
+
+Information about a human may originate from different sources.
+
+HSRP therefore treats **provenance** as a first-class concern.
+
+A representation may distinguish information obtained from:
+
+* direct human input
+* interviews
+* observations
+* documents
+* external records
+* computational inference
+* system-generated information
+* imported datasets
+* third-party sources
+
+Provenance allows downstream systems to reason about **where information came from**, rather than treating every represented value as equally authoritative.
+
+---
+
+## Uncertainty and Contradiction
+
+Human information can be incomplete, uncertain, ambiguous, or contradictory.
+
+HSRP is designed to preserve these states rather than silently forcing uncertain information into a single definitive value.
+
+Examples include:
+
+```text
+Known
+Unknown
+Uncertain
+Inferred
+Reported
+Conflicting
+Historical
+Deprecated
+Pending verification
+```
+
+This distinction is important for systems that may make decisions, generate responses, or construct computational representations from HSRP data.
+
+---
+
+## Canonical Representation
+
+HSRP is intended to provide a structured representation layer between raw information and downstream computational systems.
+
+A simplified conceptual flow is:
+
+```text
+Human Information
+        ↓
+Structured Representation
+        ↓
+Canonical HSRP State
+        ↓
+Interpretation / Processing
+        ↓
+Application / Computational System
+```
+
+This separation can reduce the risk of individual applications defining incompatible representations of the same human information.
+
+---
+
+## Model Independence
+
+HSRP is intended to remain independent of any single:
+
+* AI model
+* LLM provider
+* software vendor
+* application
+* database
+* operating system
+* embodiment platform
+
+An HSRP representation should therefore be capable of being interpreted by different computational systems without being intrinsically tied to one model or vendor.
+
+This allows the representation layer to remain distinct from the intelligence or interface layer consuming it.
+
+---
+
+## Computational Personas
+
+HSRP can serve as an information foundation for systems that construct **computational personas**.
+
+For example:
+
+```text
+HSRP Representation
+        ↓
+Persona Interpretation Layer
+        ↓
+Computational Persona
+        ↓
+Interactive System
+```
+
+The computational persona may use represented:
+
+* memories
+* preferences
+* history
+* relationships
+* behavioral patterns
+* values
+* contextual information
+* uncertainty
+* temporal state
+
+However, an HSRP representation does not by itself establish that a resulting computational persona is the original human.
+
+---
+
+## Privacy, Authorization, and Security
+
+Human representation can contain extremely sensitive information.
+
+HSRP therefore treats privacy, authorization, provenance, and access control as architectural concerns rather than optional application features.
+
+A secure HSRP implementation may include mechanisms for:
+
+* access control
+* authorization
+* consent
+* data minimization
+* encryption
+* key management
+* provenance
+* auditability
+* controlled updates
+* selective disclosure
+* protected fields
+* revocation
+* uncertainty handling
+* privacy-preserving processing
+
+The specific security implementation may vary by deployment.
+
+---
+
+## Privacy by Representation
+
+Privacy should not depend exclusively on the security of the storage layer.
+
+The structure of the representation itself can help determine:
+
+* what information exists
+* who may access it
+* why it may be accessed
+* when it may be accessed
+* how it may be interpreted
+* whether it may be modified
+* whether it may be transferred
+* whether it may be disclosed
+
+This makes **privacy by representation** an important design principle for human-state systems.
+
+---
+
+## Reconstruction-Oriented Systems
+
+HSRP may also be useful in systems concerned with long-term preservation or reconstruction-oriented representations of a human.
+
+Such systems could potentially use structured information concerning:
+
+* historical identity
+* memories
+* preferences
+* behavioral patterns
+* relationships
+* experiences
+* contextual state
+* provenan
